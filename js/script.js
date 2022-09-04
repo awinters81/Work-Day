@@ -32,6 +32,17 @@ var scheduling = $(".container")
 
 var toDo = []
 
+// so let me try to create a function that shows what the object is in the console.log
+// I think it works, it did call the empty brackets in the console
+
+function startDay(){
+    console.log(toDo);
+}
+
+// Okay so... I think i need to create a function that will allow me to do something in each time block...
+// I already have a timeblock var, so I'll try to do something with that...
+
+
 // Displaying Date and Time
 
 currDay.text(currDate);
