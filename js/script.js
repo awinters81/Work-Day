@@ -41,7 +41,13 @@ function startDay(){
 
 // Okay so... I think i need to create a function that will allow me to do something in each time block...
 // I already have a timeblock var, so I'll try to do something with that...
+// I would still be using jQuery syntax, so I think my function would be similar to how i did the date and time.
+// it just wouldn't be a text option.
+// So I found .each, which states that the function would be excuted on each value defined. I have to create another
+// function inside. more variables, then?
+// So I need it for each timeblock.
 
+timeBlock.each()
 
 // Displaying Date and Time
 
