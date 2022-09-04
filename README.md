@@ -5,9 +5,7 @@ A website allowing a person to schedule their daliy tasks for the day on
 an hour to hour basis.
 
 <h2>Built With</h2>
-HTML
-CSS
-JS
+HTML, CSS, JS
 
 <h2>Website</h2>
 https://awinters81.github.io/Work-Day/
@@ -16,3 +14,4 @@ https://awinters81.github.io/Work-Day/
 Created by Alexandria Winters
 
 <h2>Screenshot</h2>
+<img src= "./assets/screenshot1.jpg>
