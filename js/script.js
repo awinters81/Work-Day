@@ -55,10 +55,29 @@ var $thisBl = $(this);
 var $thisCurrHour = $(".hour")
 
 //But how am I going to use those variables in my time block function?
+// For now, I'll come back to this...
 
-timeBlock.each(function(){
+//timeBlock.each(function(){
+//
+//})
 
-})
+// I know that each timeblock has to show a certain color based on if it the past, present, or future.
+// I already have a variable for that and it seems like I have to use if statements and pull from my css file.
+// So I need one for the current hour, the past hour and the future hour as I have classes for all
+// three of them in my css file.
+// so..
+
+if ($thisCurrHour == currHour){
+
+}
+
+if ($thisCurrHour < currHour){
+
+}
+
+if ($thisCurrHour > currHour){
+
+}
 
 // Displaying Date and Time
 
