@@ -14,4 +14,4 @@ https://awinters81.github.io/Work-Day/
 Created by Alexandria Winters
 
 <h2>Screenshot</h2>
-<img src= "./assets/screenshot1.jpg>
+<img src= "./assets/screenshot1.jpg">
