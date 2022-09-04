@@ -11,9 +11,11 @@ var currTime = moment().format('h:mm:ss a');
 // It looks like the $ symbol will alow me to pull from jQuery and # will refernence the id 
 //I need to pull from in my HTML file
 
-var currDay = $("#currentDay")
+var currDay = $("#currentDay");
 
 // I need to display the date, so I need to create a function that will allow me to do that?
+// so I didn't need the $ in front to create this function, having it in the var above is already telling the script that we're pulling from
+// jQuery and I forgot to add a semi colon previously...
 
-$currDay.text(currDate);
+currDay.text(currDate);
 
