@@ -43,11 +43,22 @@ function startDay(){
 // I already have a timeblock var, so I'll try to do something with that...
 // I would still be using jQuery syntax, so I think my function would be similar to how i did the date and time.
 // it just wouldn't be a text option.
-// So I found .each, which states that the function would be excuted on each value defined. I have to create another
-// function inside. more variables, then?
+// So I found .each, which states that the function would be executed on each value defined. I have to create another
+// function inside. So more variables, then?
 // So I need it for each timeblock.
+// I see something in Java/jQuery called "this"? "This" refers to a specific selector?
+// So I know I need a function in here so...
+// I know what every time block has in common is the block itself and they each refer to a specific hour.
+// So let me create variables to reflect that...
 
-timeBlock.each()
+var $thisBl = $(this);
+var $thisCurrHour = $(".hour")
+
+//But how am I going to use those variables in my time block function?
+
+timeBlock.each(function(){
+
+})
 
 // Displaying Date and Time
 
