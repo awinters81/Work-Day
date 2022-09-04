@@ -6,6 +6,10 @@
 var currDate = moment().format("MMM Do YY");
 var currTime = moment().format('h:mm:ss a');
 
+// Let me create another time variable, since the work day scheduler is going by hour.
+
+var currHour = moment().format('H')
+
 //and I need to create variables that will pull from jQuery
 // The current time is displayed, but it's static. Since it's not a requirement, I'll come back to it later.
 // So now I have to figure out how I'm going to cycle through each time block.
@@ -23,8 +27,8 @@ var timeBlock = $(".time-block")
 var scheduling = $(".container")
 
 // Also, from what I'm researching, I need to create an array because I need to store multiple records
-// of text, so... I think my brackets would be empty. Since I have an array, is console.log coming into play when I eventually
-// create more functions?
+// of text, so... I think my brackets would be empty. Since I have an array, is console.log coming into play 
+// when I eventually create more functions?
 
 var toDo = []
 
